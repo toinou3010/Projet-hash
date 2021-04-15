@@ -13,9 +13,10 @@ a = comptes.select{ |l| l.size == 6}
 puts "il y a #{a.count} compte avec 5 caracthère"
 
 
-lt = rangement.select! { |fruit| fruit.start_with? "@A", "@B", "@C" "@D", "@E", "@F", "@G", "@H", "@I", "@J", "@K", "@L", "@M", "@N", "@O", "@P", "@Q", "@R", "@S", "@T", "@U", "@V", "@W", "@X", "@Y", "@Z"}
+lt = rangement.select! { |compt| compt.start_with? "@A", "@B", "@C", "@D", "@E", "@F", "@G", "@H", "@I", "@J", "@K", "@L", "@M", "@N", "@O", "@P", "@Q", "@R", "@S", "@T", "@U", "@V", "@W", "@X", "@Y", "@Z"}
 
 puts "il y a #{lt.count} comptes qui commence par une Majuscule"
+
 
 
 puts"-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
